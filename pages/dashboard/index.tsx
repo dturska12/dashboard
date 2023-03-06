@@ -79,7 +79,8 @@ const Dashboard: ThirdwebNextPage = (
         <ClientOnly fadeInDuration={600} ssr={null}>
           {!isLoading && (
             <>
-              <Heading mb={8}>Get started quickly</Heading>
+            <img src="aura.ico" alt="Aura Logo" width="200" height="200" />
+              <Heading mb={8}>Founders Portal</Heading>
               {(address || publicKey) && (
                 <SimpleGrid columns={{ base: 1, md: 2 }} gap={6}>
                   {GET_STARTED_SECTIONS.map(
